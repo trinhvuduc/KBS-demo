@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 
-function Form(props) {
+function Form2(props) {
     const [show1, setShow1] = useState(true);
     const [show2, setShow2] = useState(false);
 
@@ -124,4 +124,4 @@ function Form(props) {
     )
 }
 
-export default Form;
+export default Form2;

@@ -33,21 +33,12 @@ function Form1(props) {
       setShow3(true)
       console.log(values);
     }
-
-    // useEffect(() => {
-    //   const fetchData = async () => {
-    //     const res = await axios('http://localhost:5000/case-base')
-    //     setData(res.data.data)
-    //     console.log(res.data.data);
-    //   }
-    //   fetchData();
-    // }, []);
-
     console.log('data',data);
     
   return (
       <Row>
           <Col span={12} offset={6}>
+          <p style={{fontSize:'30px', textAlign: 'center'}}>Hệ thống tư vấn dinh dưỡng trẻ em</p>
           {show1&&<Form name="wrap" value={50} labelCol={{flex: "110px",}} style={{marginTop:'100px'}}
         labelAlign="left"
         labelWrap
@@ -268,11 +259,20 @@ function Form1(props) {
         wrapperCol={{
         flex: 1,
       }}
-      // onFinish={onFinish2}
       colon={false}
     >
-    <p>Đây là chế độ dinh dưỡng một ngày mà hệ thống tư vấn cho con của bạn. Bạn có thể tham khảo ảnh dưới đây để lựa chọn thực đơn phù hợp.{data}</p>   
-    <img src="1.png"></img> 
+    <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} style={{marginTop:'20px'}}>
+      
+      <Col span={12}>
+      <img src="1.png" style={{width:'400px'}}></img>
+      </Col>
+
+      <Col span={12}>
+      <p style={{fontSize:'20px'}}>Đây là chế độ dinh dưỡng một ngày mà hệ thống tư vấn cho con của bạn: <br/>
+      <span style={{fontSize:'20px',fontWeight: 'bold', textAlign: 'center'}}>{data}</span></p>
+      <p style={{fontSize:'20px'}}>Bạn có thể tham khảo ảnh bên đây để lựa chọn thực đơn phù hợp.</p>
+      </Col>
+    </Row>    
     </Form>}
           </Col>
       </Row>
