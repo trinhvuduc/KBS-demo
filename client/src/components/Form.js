@@ -19,12 +19,14 @@ function Form1(props) {
       setShow2(true)
       console.log(res);
       setStatus({heightCondition: res.data.heightCondition,
-        weightCondition: res.data.weightCondition})
+        weightCondition: res.data.weightCondition,
+        age: res.data.case.age})
     }
 
     const onFinish1 = async (values) => {
       values.heightCondition = status.heightCondition.value;
       values.weightCondition = status.weightCondition.value;
+      values.age = status.age;
       const res1 = await axios.post(`http://localhost:5000/case-base`, {...values})
       setData(res1.data.data)
       setShow2(false)
