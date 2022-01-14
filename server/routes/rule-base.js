@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require("fs");
 const path = require("path");
+const { WEIGHT_CONDITION, HEIGHT_CONDITON } = require("../lib/constant");
 
 const lineToObject = (line) => {
   const arr = line.split(",");
@@ -21,16 +22,16 @@ const findByAgeAndGender = (age, gender) => physicalCondition.find((item) => ite
 
 const findByWeightAndHeight = (physical, weight, height) => {
   let weightCondition = null;
-  if (weight <= physical.weight1) weightCondition = "thieu_can";
-  else if (weight <= physical.weight2) weightCondition = "nguy_co_thieu_can";
-  else if (weight <= physical.weight3) weightCondition = "binh_thuong";
-  else if (weight <= physical.weight4) weightCondition = "nguy_co_thua_can";
-  else weightCondition = "thua_can";
+  if (weight <= physical.weight1) weightCondition = WEIGHT_CONDITION[0];
+  else if (weight <= physical.weight2) weightCondition = WEIGHT_CONDITION[1];
+  else if (weight <= physical.weight3) weightCondition = WEIGHT_CONDITION[2];
+  else if (weight <= physical.weight4) weightCondition = WEIGHT_CONDITION[3];
+  else weightCondition = WEIGHT_CONDITION[4];
 
   let heightCondition = null;
-  if (height <= physical.height1) heightCondition = "thap";
-  else if (height <= physical.height2) heightCondition = "binh_thuong";
-  else heightCondition = "cao";
+  if (height <= physical.height1) heightCondition = HEIGHT_CONDITON[0];
+  else if (height <= physical.height2) heightCondition = HEIGHT_CONDITON[1];
+  else heightCondition = HEIGHT_CONDITON[2];
 
   return {
     message: "Thành công",

@@ -154,7 +154,23 @@ const SIMILARTITY = {
   }
 }
 
+const WEIGHT_CONDITION = [
+  { value: "thieu_can", name: "Thiếu cân"},
+  { value: "nguy_co_thieu_can", name: "Nguy cơ thiếu cân"},
+  { value: "binh_thuong", name: "Bình thường"},
+  { value: "nguy_co_thua_can", name: "Nguy cơ thừa cân"},
+  { value: "thua_can", name: "Thừa cân"},
+];
+
+const HEIGHT_CONDITON = [
+  { value: "thap", name: "Thấp" },
+  { value: "binh_thuong", name: "Cao" },
+  { value: "cao", name: "Cao" },
+]
+
 module.exports = {
   MASS,
-  SIMILARTITY
+  SIMILARTITY,
+  WEIGHT_CONDITION,
+  HEIGHT_CONDITON,
 }
