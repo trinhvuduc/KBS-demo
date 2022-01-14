@@ -1,0 +1,11 @@
+﻿"Trạng thái chiều cao(canxi, D)","Trạng thái cân nặng(calo,B6, B12)",Thị lực(A),"Khả năng hấp thụ(B6, B12, Kẽm)","Mức độ ăn(B6, B12)",Đi nhà trẻ,"Sức đề kháng(C, Kẽm)",Mức độ vận động(Sắt),Giải pháp
+thap,thieu_can,binh_thuong,tot,nhieu,co,cao,binh_thuong,+2mcgD +0.1mgB6 +0.1mcgB12
+thap,nguy_co_thieu_can,kem,kem,binh_thuong,khong,cao,binh_thuong,+40mgCanxi +20calo/kg +0.2mgB6 +0.1mcgB12 +50mcgA
+binh_thuong,nguy_co_thua_can,kem,binh_thuong,binh_thuong,khong,cao,binh_thuong,+50mcgA -10calo/kg
+binh_thuong,binh_thuong,kem,binh_thuong,bieng_an,khong,thap,thap,+50mcgA +0.2mgB6 +0.2mgB12 +10calo/kg +10mgC +1mgKẽm
+cao,thua_can,kem,tot,nhieu,co,binh_thuong,cao,+50mcgA -20calo/kg
+cao,thua_can,binh_thuong,binh_thuong,binh_thuong,co,binh_thuong,thap,-10calo/kg +2mgSắt
+binh_thuong,binh_thuong,binh_thuong,tot,nhieu,khong,thap,binh_thuong,+10mgC +1mgKẽm
+thap,thieu_can,kem,binh_thuong,nhieu,co,binh_thuong,thap,+40mgCanxi +20calo/kg +0.2mgB6 +0.1mcgB12 +50mcgA +2mgSắt
+cao,thieu_can,binh_thuong,kem,binh_thuong,co,thap,thap,+20calo/kg +0.3mgB6 +0.2mcgB12 +10mgC +2mgKẽm
+binh_thuong,nguy_co_thieu_can,kem,tot,bieng_an,co,thap,binh_thuong,+10calo/kg +50mcgA +0.2mgB6 +0.2mcgB12 +10mgC 1mgKẽm
