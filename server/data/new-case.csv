@@ -1,2 +1,5 @@
-.heightCondition,.weightCondition,.eyesight,.absorption,.eatingLevel,.kindergarten,.strength,.bodyMovement,.other
-thap,nguy_co_thua_can,kem,binh_thuong,,,,binh_thuong,Chơi game nhiều
+[].heightCondition,[].weightCondition,[].eyesight,[].absorption,[].eatingLevel,[].kindergarten,[].strength,[].bodyMovement,[].output,[].age
+10,thap,nguy_co_thua_can,kem,binh_thuong,,,,binh_thuong,Chơi game nhiều
+13,,,,,,khong,,,[{"key":"ngu "	"value":"nhieu"}]
+,,,,,khong,,,[{"key":"ngu "	"value":"nhieu"}],13
+thap,thua_can,,,,khong,binh_thuong,,[{"key":"choi game"	"value":"nhieu"}],12
