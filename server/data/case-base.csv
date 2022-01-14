@@ -1,3 +1,24 @@
 [].heightCondition,[].weightCondition,[].eyesight,[].absorption,[].eatingLevel,[].kindergarten,[].strength,[].bodyMovement,[].output,[].age
-cao,thua_can,kem,tot,nhieu,co,binh_thuong,cao,550mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 100calo/kg. 11mgSắt. 3mgKẽm. 260mgCanxi,16
-thap,thua_can,,tot,,khong,binh_thuong,,550mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 100calo/kg. 11mgSắt. 3mgKẽm. 260mgCanxi,12
+cao,thua_can,kem,tot,nhieu,co,binh_thuong,cao,550mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 100calo/kg. 11mgSáº¯t. 3mgKáº½m. 260mgCanxi,16
+thap,thua_can,binh_thuong,tot,nhieu,khong,binh_thuong,cao,550mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 100calo/kg. 11mgSáº¯t. 3mgKáº½m. 260mgCanxi,12
+cao,thua_can,binh_thuong,tot,bieng_an,co,cao,cao,330mcgA RAE. 0.2mgB6. 1mcgB12. 15 mgC. 15 mcg ( 600 IU)D.  800-1400calo. 4mgSắt. 3mgKẽm. 500mgCanxi,25
+binh_thuong,nguy_co_thieu_can,binh_thuong,,bieng_an,khong,cao,cao,339mcgA RAE. 0.5mgB6. 0.9mcgB12. 15 mgC. 15 mcg ( 600 IU)D.  1000-1200calo. 4mgSắt. 3mgKẽm. 500mgCanxi,30
+thap,thua_can,binh_thuong,binh_thuong,nhieu,khong,cao,binh_thuong,300mcgA RAE. 0.5mgB6. 0.9mcgB12. 15 mgC. 15 mcg ( 600 IU)D.  1000-1400calo. 7mgSắt. 3mgKẽm. 500mgCanxi,27
+binh_thuong,nguy_co_thieu_can,,binh_thuong,nhieu,co,cao,binh_thuong,300mcgA RAE. 0.5mgB6. 0.9mcgB12. 15 mgC. 15 mcg ( 600 IU)D.  1000-1400calo. 7mgSắt. 3mgKẽm. 500mgCanxi,35
+,nguy_co_thieu_can,binh_thuong,binh_thuong,nhieu,khong,cao,binh_thuong,300mcgA RAE. 0.5mgB6. 0.9mcgB12. 15 mgC. 15 mcg ( 600 IU)D.  1000-1400calo. 7mgSắt. 3mgKẽm. 500mgCanxi,18
+thap,nguy_co_thieu_can,binh_thuong,binh_thuong,bieng_an,co,thap,binh_thuong,"300mcgA, 0
+cao,,kem,tot,nhieu,khong,cao,binh_thuong,"350mcgA , 0
+thap,binh_thuong,binh_thuong,tot,binh_thuong,co,thap,binh_thuong,"450mcgA, 0
+thap,nguy_co_thieu_can,,binh_thuong,nhieu,khong,binh_thuong,binh_thuong,"450mcgA, 0
+binh_thuong,nguy_co_thieu_can,,kem,bieng_an,khong,binh_thuong,cao,"350mcgA, 0
+cao,binh_thuong,kem,binh_thuong,binh_thuong,co,thap,cao,"400mcgA, 0
+thap,binh_thuong,binh_thuong,,nhieu,khong,thap,cao,"300mcgA RAE, 0
+thap,binh_thuong,binh_thuong,binh_thuong,,co,binh_thuong,thap,"450mcgA, 0
+cao,nguy_co_thieu_can,binh_thuong,,bieng_an,khong,cao,thap,"400mcgA, 0
+binh_thuong,thua_can,binh_thuong,binh_thuong,binh_thuong,khong,cao,thap,"400mcgA, 0
+binh_thuong,thua_can,,,nhieu,co,cao,binh_thuong,700mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 21mcg(400IU) D. 120calo/kg. 11mgSắt. 2mgKẽm. 500mgCanxi,12
+binh_thuong,binh_thuong,binh_thuong,binh_thuong,,khong,cao,binh_thuong,400mcgA. 0.3mgB6. 0.5mcgB12. 55mgC. 10mcg(400IU) D. 120calo/kg. 11mgSắt. 3mgKẽm. 260mgCanxi,11
+cao,binh_thuong,binh_thuong,kem,bieng_an,khong,cao,binh_thuong,490mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 120calo/kg. 11mgSắt. 3mgKẽm. 260mgCanxi,10
+binh_thuong,binh_thuong,binh_thuong,kem,binh_thuong,khong,cao,cao,500mcgA. 0.3mgB6. 0.5mcgB12. 60mgC. 10mcg(400IU) D. 125calo/kg. 11mgSắt. 5mgKẽm. 260mgCanxi,8
+binh_thuong,nguy_co_thieu_can,binh_thuong,kem,binh_thuong,khong,binh_thuong,cao,400mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 120calo/kg. 11mgSắt. 3mgKẽm. 260mgCanxi,7
+cao,thieu_can,binh_thuong,binh_thuong,binh_thuong,khong,binh_thuong,cao,400mcgA. 0.3mgB6. 0.5mcgB12. 50mgC. 10mcg(400IU) D. 120calo/kg. 11mgSắt. 3mgKẽm. 260mgCanxi,12
